@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+  font-family: "Sevillana", system-ui;
+  font-family: "Barlow", system-ui;
+color:white;
+  font-size: 30px;
+}
+
+input[type="checkbox"]{
+  transform: scale(2);
+  margin-right: 30px;
+}
+
+input[type="text"]{
+  font-size: 30px;
+  width: 230px;
+  border-radius: 200px;
+  border: solid 4px pink;
+}
+
+.hidden{
+  display:none;
+}
+
+.botao{
+  background-color: #673AB7;
+  font-family: "Barlow", system-ui;
+  color:white;
+  border: 2px solid #f5417e;
+  border-radius: 200px;
+  font-size: 25px;
+}
+
+.botao:hover{
+  bacKground-color:#3F51B5;
+  border: solid 2px #3F51B5;
+}
